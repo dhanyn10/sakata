@@ -5,15 +5,15 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "package-win": "electron-packager . multiple-file-manager --overwrite --asar=true --platform=win32 --arch=ia32 --icon=multiple-file-manager.ico  --version-string.CompanyName=DhanyN --version-string.FileDescription=DhanyN --version-string.ProductName=\"Sakata\"",
-    "dist": "electron-builder"
+    "package-win": "electron-packager . sakata --overwrite --asar=true --platform=win32 --arch=ia32  --version-string.CompanyName=DhanyN --version-string.FileDescription=DhanyN --version-string.ProductName=\"Sakata\"",
+    "dist": "electron-builder --publish never"
   },
   "build":
   {
       "productName": "Sakata"
   },
   "repository": "https://github.com/dhanyn10/sakata",
-  "author": "GitHub",
+  "author": "Dhany Nurdiansyah",
   "license": "MIT",
   "devDependencies": {
     "electron": "^1.8.4",
