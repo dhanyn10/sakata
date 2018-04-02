@@ -1,0 +1,18 @@
+{
+  "name": "sakata",
+  "version": "0.0.0",
+  "description": "Good Comment Spammer",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "repository": "https://github.com/dhanyn10/sakata",
+  "author": "GitHub",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^1.8.4",
+    "electron-builder": "^20.8.1"
+  },
+  "dependencies": {}
+}
