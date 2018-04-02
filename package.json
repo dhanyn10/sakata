@@ -8,9 +8,8 @@
     "package-win": "electron-packager . sakata --overwrite --asar=true --platform=win32 --arch=ia32  --version-string.CompanyName=DhanyN --version-string.FileDescription=DhanyN --version-string.ProductName=\"Sakata\"",
     "dist": "electron-builder --publish never"
   },
-  "build":
-  {
-      "productName": "Sakata"
+  "build": {
+    "productName": "Sakata"
   },
   "repository": "https://github.com/dhanyn10/sakata",
   "author": "Dhany Nurdiansyah",
@@ -19,5 +18,8 @@
     "electron": "^1.8.4",
     "electron-builder": "^20.8.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1"
+  }
 }
